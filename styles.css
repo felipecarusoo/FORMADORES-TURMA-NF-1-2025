@@ -17,7 +17,7 @@ header {
 .menu-acessibilidade {
     position: fixed;
     top: 2rem;
-    right: 20px;
+    right: 25px;
     z-index: 1000;
 }
 
