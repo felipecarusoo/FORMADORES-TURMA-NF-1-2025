@@ -22,6 +22,11 @@ diminuiTamanhoBotao.addEventListener('click', function () {
     
     })
 
+    const alternaContraste = document.getElementById('alterna-contraste')
+    alternaContraste.addEventListener('click', function (){
+        document.body.classList.toggle('alto-contraste')
+    })
+
 const botaoDeAcessibilidade = document.getElementById('botao-acessibilidade')
 const opcoesDeAcessibilidade = document.getElementById('opcoes-acessibilidade')
 
@@ -30,4 +35,5 @@ const opcoesDeAcessibilidade = document.getElementById('opcoes-acessibilidade')
        opcoesDeAcessibilidade.classList.toggle('apresenta-lista')
 
     })
-} )
+
+})
